@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Code Matrix
-      uses: actions/checkout@v4   # 🔥 ขันน็อตอัปเกรดขึ้น v4 ล่าสุด
+      uses: actions/checkout@v7   # 🔥 ขันน็อตอัปเกรดขึ้น v4 ล่าสุด
 
     - name: Set up Go Engine
       uses: actions/setup-go@v5   # 🔥 ขันน็อตอัปเกรดขึ้น v5 ล่าสุด
