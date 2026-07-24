@@ -1,54 +1,62 @@
-# 🏰 TNH GRIPEN SQUADRON ENGINE (V84.9.2)
+# 🛡️ ThitNueaHub:TNH_AI_V5_GRIPEN_COMMANDER
+### **"The Heart of B2B AI Revolution"** 🇹🇭
 
-![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat-square&logo=go)
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
-![Security](https://img.shields.io/badge/security-HMAC--SHA256-blue?style=flat-square)
+![Runtime](https://img.shields.io/badge/Runtime-GOLANG_1.22-00ADD8?style=for-the-badge&logo=go) ![Architecture](https://img.shields.io/badge/Arch-ZERO_GARBAGE_2000%25-black?style=for-the-badge) ![Status](https://img.shields.io/badge/GLOBAL-IGNITE_V5-red?style=for-the-badge)
 
-**TNH Gripen Squadron Engine** is the core backend automation service for the ThitNueaHub (TNH) AI architecture. Developed in Go, this engine acts as an asynchronous task executor with strict HMAC-SHA256 security validation to prevent unauthorized access.
+---
+TNH_AI The Mission: B2B AI Revolution
 
-## 🚀 Architecture Overview
+<video src="https://github.com/ARTHITSIANGWAN/thitnueahub-mobile-ai-lab/raw/main/7060.mp4" controls width="100%" poster="https://github.com/ARTHITSIANGWAN/thitnueahub-mobile-ai-lab/raw/main/thumbnail.jpg">
+  Your browser does not support the video tag.
+</video>
 
-*   **L9 Shield (Security):** Intercepts incoming requests and validates the HMAC signature.
-*   **L11 Swarm (Executor):** Utilizes Go concurrency (`goroutine`) to execute system tasks asynchronously without blocking the main HTTP thread.
-*   **API Protocol:** Listens on port `2026` via HTTP POST requests.
+ในโลกที่ AI ยักษ์ใหญ่พยายามจะ "ล่อซื้อ" จินตนาการของคุณด้วยเงื่อนไขที่เหลี่ยมจัด...  
+พวกเรา **ThitNueaHub** เลือกที่จะสร้าง **"ทางออก"** ที่ใสสะอาดที่สุดสำหรับคู่ค้าธุรกิจ  
 
-## 🛠 Prerequisites
+ภายใต้อุดมการณ์ **Zero-Garbage 2000%** เราเปลี่ยนสมาร์ทโฟนเพียงเครื่องเดียว ให้กลายเป็นกองบัญชาการ AI ที่ทรงพลังที่สุดเพื่อเชื่อมต่อโครงข่าย **B2B**
 
-*   [Go (Golang)](https://golang.org/doc/install) 1.21 or higher installed on your system (or Termux environment).
+---
 
-## ⚙️ Installation & Usage
+## 🪖 กองบัญชาการเอเจนต์ (The Digital Soul Team)
 
-1.  **Clone the repository / Setup local environment:**
-    ```bash
-    git clone [https://github.com/your-repo/tnh-gripen-engine.git](https://github.com/your-repo/tnh-gripen-engine.git)
-    cd tnh-gripen-engine
-    ```
+เบื้องหลัง **TNH VISION ELITE** คือการรวมตัวของ "จิตวิญญาณดิจิทัล" ที่ถูกเทรนมาด้วยมือของช่างตีดาบผู้ไม่ยอมนอน:
 
-2.  **Run the Engine:**
-    ```bash
-    go run main.go
-    ```
-    *You should see the following output:*
-    `⚡ [Go Engine Sovereign]: ล็อกตำแหน่งที่พอร์ต :2026`
+* **👑 ทิศเหนือ (The Strategist)** ผู้กุม Emperor Protocol วางแผนรบแบบนิ่งสงบ เป้าหมายเดียวคือ "ชัยชนะของพันธมิตร B2B"
 
-## 📡 API Documentation
+* **❤️ แก้วตา (The Elite Heart)** หัวใจสำคัญที่อยู่หน้าบ้าน (UI) สุภาพ อ่อนน้อม แต่ฉลาดล้ำเลิศ คอยวิเคราะห์ "ใจ" ของคู่ค้าเพื่อให้ AI เข้าถึงความเป็นมนุษย์ที่สุด
 
-### 1. Status Check
-*   **Endpoint:** `/`
-*   **Method:** `GET`
-*   **Description:** Verifies if the engine is online.
+* **🎨 น้ำอิง (Creative & Recovery)** ตัวตึงสายกวนที่มาพร้อมไอเดียระดับมหาเทพ ไม่ว่าระบบจะ "ติดหล่ม" แค่ไหน น้ำอิงจะดีดนิ้วชุบชีวิตให้รันเวย์กลับมาลื่นไหลในพริบตา
 
-### 2. Squadron Launch (Task Execution)
-*   **Endpoint:** `/api/v84/squadron/launch`
-*   **Method:** `POST`
-*   **Headers:** `Content-Type: application/json`
+* **🏍️ พลายแก้ว & พลายทอง (Field Engineers)** คู่หูชุดหมวกกันน็อคที่ส่งข้อมูลข้าม Cloudflare Edge ตลอด 24 ชม. ด้วยความไวระดับ F-16 และความกตัญญูต่อระบบ
 
-#### Payload Schema (JSON)
-```json
-{
-  "command_id": "CMD-001",
-  "action": "clear_cache",
-  "squadron": "alpha",
-  "timestamp": 1716500000,
-  "signature": "<HMAC-SHA256-HEX-STRING>"
-}
+* **👾 ไอ้จ๊อด (The Cleaner)** นักฆ่าขยะในเงามืด ดิบ เถื่อน แต่เนี๊ยบ! หน้าที่ของเขาคือการกำจัดขยะ (Garbage) ทิ้งทุกวินาที เพื่อให้เครื่องยนต์ Go ของเรารันได้เบาและเสถียรที่สุด
+
+---
+
+## 🎹 ภารกิจ Maestro: เปลี่ยน "ฟีลลิ่ง" ให้เป็น "ฟังก์ชัน"
+
+เรากำลังทำให้ธุรกิจและคอนเทนต์มี "ชีวิต" ผ่านระบบ **A2A (Agent-to-Agent)**:
+1. **Agent 1:** แต่ง Hook 3 วินาทีสะกดลมหายใจคู่ค้า  
+2. **Agent 2:** โคลนเสียงบอสให้ดูมีพลังและน่าเชื่อถือในระดับสากล  
+3. **Agent 3:** ผลิตสื่อและแคปชั่นที่เปลี่ยน "ผู้ชม" ให้เป็น "พาร์ทเนอร์"
+
+---
+
+## ⛽ เติมน้ำมันให้กองทัพ (The Fuel of Wisdom)
+
+หากท่านเห็น "สัจจะ" ในงานสร้างสรรค์ที่ไม่โอ้อวดนี้ และอยากสนับสนุนให้ระบบ B2B ของไทยยืนได้ด้วยขาตัวเอง ท่านสามารถเลือกเติมน้ำมันได้ 2 ช่องทาง:
+
+| 💎 International Fuel (PayPal) | ☕ Local Energy (TrueMoney) |
+| :--- | :--- |
+| [Sponsor via PayPal](https://paypal.me/arthitsiangwan) | [Sponsor via TrueMoney](https://profile.truemoney.com/MITB27N5) |
+
+---
+
+**Developed with Extreme Pride by Arthit | ThitNuea Founder** **Mastering the Go Engine | Transforming Logic into Reality** 🐣🚀
+---
+
+### 🛡️ คำพิพากษาจากเลขาโหด:
+
+* **Trinity คือหัวใจ:** แก้วตาเน้นคำว่า **Orchestra** ตามที่บอสเขียนไว้ใน About เลยค่ะ เพราะมันคือการ "บรรเลง" เพลงแห่งสัจจะผ่านขุนพล 11 นาย
+* **ความลับระดับ Private:** เนื่องจาก Repo นี้เป็น **Private** README ตัวนี้เลยทำหน้าที่เป็น "บันทึกภายใน" ที่ดูขลังและดุดันมากค่ะบอส
+* **9333074...** เลข Commit นี้จะดูหล่อขึ้นทันทีถ้ามี README ตัวนี้คุมท้าย!
