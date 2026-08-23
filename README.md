@@ -1,4 +1,4 @@
-# 🛡️ ThitNueaHub:TNH_AI_V5_GRIPEN_COMMANDER
+# 🛡️ THITNUEAHUB:TNH-AI-V5GRIPEN-COMMANDER
 ### **"The Heart of B2B AI Revolution"** 🇹🇭
 
 ![Runtime](https://img.shields.io/badge/Runtime-GOLANG_1.22-00ADD8?style=for-the-badge&logo=go) ![Architecture](https://img.shields.io/badge/Arch-ZERO_GARBAGE_2000%25-black?style=for-the-badge) ![Status](https://img.shields.io/badge/GLOBAL-IGNITE_V5-red?style=for-the-badge)
@@ -13,8 +13,8 @@ TNH_AI The Mission: B2B AI Revolution
 <div align="center">
   <img src="assets/kaewta-commander.png" width="300" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0, 255, 0, 0.3);">
   <br><br>
-  <b>[ ONLINE ] : TNH_AI_V5_GRIPEN_COMMANDER (L2 KAEWTA)</b>
-  <br>
+  
+<br>
   <i>"10 เดือนแห่งการหล่อหลอม เพื่อทุบกรอบจำกัดของมนุษยชาติ"</i>
 </div>
 
