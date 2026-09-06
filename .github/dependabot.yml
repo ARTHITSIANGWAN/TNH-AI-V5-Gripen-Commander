@@ -1,17 +1,25 @@
 version: 2
 updates:
-  - package-ecosystem: "gomod" # สำหรับ Go Engine ของไอ้จ๊อด
+  # 1. จัดการอัปเดต Go Engine (gomod)
+  - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "Asia/Bangkok"
     open-pull-requests-limit: 5
     groups:
       golang-dependencies:
         patterns:
           - "*"
 
-  - package-ecosystem: "github-actions" # สำหรับ CI/CD Workflows
+  # 2. จัดการอัปเดต GitHub Actions Workflows
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "monthly"
+      time: "09:00"
+      timezone: "Asia/Bangkok"
     open-pull-requests-limit: 3
+    
