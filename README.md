@@ -1,4 +1,4 @@
-# 🛡️ THITNUEAHUB:TNH-AI-V5GRIPEN-COMMANDER
+# 🛡️ ARTHITSIANGWAN:TNH-AI-V5GRIPEN-COMMANDER
 ### **"The Heart of B2B AI Revolution"** 🇹🇭
 
 ![Runtime](https://img.shields.io/badge/Runtime-GOLANG_1.22-00ADD8?style=for-the-badge&logo=go) ![Architecture](https://img.shields.io/badge/Arch-ZERO_GARBAGE_2000%25-black?style=for-the-badge) ![Status](https://img.shields.io/badge/GLOBAL-IGNITE_V5-red?style=for-the-badge)
